@@ -1,0 +1,68 @@
+/************************ GLOBAL **************************/
+
+.section-solution, .section-host{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin:auto;
+}
+
+h2{
+    color:#213e4e;
+    text-align:center;
+    font-size:1.8rem;
+    border-top:1px dashed #213e4e;
+    border-right:1px dashed #213e4e;
+    border-left:1px dashed #213e4e;
+    padding:15px 0;
+    margin:40px auto;
+    width:80%;
+}
+
+/*********************************** SECTION SOLUTION ****************************/
+
+.section-solution article, .section-host article{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.section-solution article i, .section-host article i{
+    color:#fb8b9b;
+    font-size:1.4em;
+}
+
+.section-solution h3, .section-host h3{
+    color:#fb8b9b;
+    font-size:0.7em;
+}
+
+.section-solution p, .section-host p{
+    color:#9890a6;
+    line-height:1.4;
+    font-size:0.65em;
+}
+
+.section-host span{
+    color:#fb8b9b;
+    font-size:0.9em;
+    font-weight:600;
+}
+
+@media screen and (min-width:1024px){
+    
+    .section-solution, .section-host{
+        flex-direction:row;
+        justify-content:space-evenly;
+    }
+    
+    .section-solution article, .section-host article{
+        
+    }
+
+    .section-solution p, .section-host p{
+        width:90%;
+    }
+}
+

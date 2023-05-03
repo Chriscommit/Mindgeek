@@ -1,0 +1,129 @@
+.section-description{
+    width:80%;
+    margin:auto;
+}
+
+.section-description h2{
+    color:#213e4e;
+    text-align:center;
+    font-size:1.8rem;
+    border-top:1px dashed #213e4e;
+    border-right:1px dashed #213e4e;
+    border-left:1px dashed #213e4e;
+    padding:15px 0;
+    margin:40px auto;
+    width:100%;
+}
+
+.section-description p{
+    color:#9890a6;
+    line-height:1.4;
+    font-size:0.9em;
+    max-width:100%;
+    margin:auto;
+    padding: 0 20px;
+}
+
+.section-packages{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 0;
+}
+
+.section-packages article{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    border:1px dashed #213e4e;
+    margin:40px auto;
+    padding:20px 0 10px 0;
+}
+
+.section-packages h3{
+    background-color:#213e4e;
+    width:98%;
+    text-align:center;
+    color:#fff;
+    padding:25px 0;
+    font-size:0.8em;
+    margin:auto;
+}
+
+.section-packages span{
+    font-size:1em;
+    color:#9890a6;
+    padding:20px 0;
+    text-align:center;
+}
+
+.section-packages ul li{
+    font-size:0.9em;
+    color:#9890a6;
+    list-style-type:circle;
+    margin:10px auto 30px 60px;
+    max-width:100%;
+}
+
+.section-packages p{
+    font-size:1.2em;
+    color:#5f6360;
+    font-weight:800;
+    text-align:center;
+}
+
+.section-packages article a{
+    color:#fff;
+    font-weight:700;
+    font-size:1.2em;
+    background-color:#fb8b9b;
+    width:98%;
+    text-align:center;
+    padding:15px 0;
+    margin:auto;
+}
+
+@media screen and (min-width:1024px){
+    
+    .form-search{
+        margin-top:50px;
+    }
+
+    .section-description h2{
+        font-size:1.4em;
+        font-weight:800;
+    }
+    
+    .section-packages{
+        flex-direction:row;
+        justify-content:space-between;
+        width:80%;
+        margin:auto;
+    }
+    
+    .section-packages article{
+        width:30%;
+    }
+
+    .section-packages span{
+        font-size:0.8em;
+        width:80%;
+    }
+
+    .section-packages ul li{
+        width:80%;
+        font-size:0.7em;
+    }
+
+    .section-packages p{
+        font-size:1em;
+    }
+    
+    .section-packages article a{
+        font-size:0.8em;
+    }
+
+    .section-packages article{
+        padding:20px 6px 10px 6px;
+    }
+}
